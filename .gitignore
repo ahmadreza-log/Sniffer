@@ -2,6 +2,9 @@
 # CSV logs (created at runtime)
 logs/
 
+# Release builds (for manual upload to GitHub Releases)
+Release/
+
 # Built binary
 sniffer
 sniffer.exe
