@@ -1,0 +1,51 @@
+# ---- Sniffer runtime ----
+# CSV logs (created at runtime)
+logs/
+
+# Built binary
+sniffer
+sniffer.exe
+sniffer.test
+*.exe
+
+# ---- Go ----
+# Binaries
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+coverage.html
+
+# Go workspace / local modules
+vendor/
+/local/
+
+# Dependency directories
+node_modules/
+
+# ---- IDE / Editor ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Misc ----
+*.log
+.env
+.env.local
+*.tmp
+*.temp
+.cache/
